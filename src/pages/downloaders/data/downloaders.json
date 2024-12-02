@@ -1,0 +1,353 @@
+[
+  {
+    "no": 1,
+    "name": "AIO (All-in-One)",
+    "description": "Download all video from aio downloader",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/aio"
+  },
+  {
+    "no": 2,
+    "name": "Amazon Music",
+    "description": "Download audio from music amazon",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/amazonmusic"
+  },
+  {
+    "no": 3,
+    "name": "Apk Direct",
+    "description": "Download the app using the package",
+    "parameter": ["package"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/apk-direct"
+  },
+  {
+    "no": 4,
+    "name": "Apk Direct 2",
+    "description": "Download the app using the package",
+    "parameter": ["package"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/apk-direct2"
+  },
+  {
+    "no": 5,
+    "name": "Apple Music",
+    "description": "Download video from music apple",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/applemusic"
+  },
+  {
+    "no": 6,
+    "name": "Capcut",
+    "description": "Download video from capcut",
+    "parameter": ["url", "type"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/capcut-dl"
+  },
+  {
+    "no": 7,
+    "name": "Cocofun",
+    "description": "Download video from cocofun",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/cocofun"
+  },
+  {
+    "no": 8,
+    "name": "DeviantArt",
+    "description": "Download file from deviantart",
+    "parameter": ["url"],
+    "limit": 2,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/deviantart"
+  },
+  {
+    "no": 9,
+    "name": "Douyin",
+    "description": "Douyin media downloader",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/douyin"
+  },
+  {
+    "no": 10,
+    "name": "Facebook",
+    "description": "Download video from facebook",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/fb"
+  },
+  {
+    "no": 11,
+    "name": "Github",
+    "description": "Download repository from github",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/github"
+  },
+  {
+    "no": 12,
+    "name": "Google Drive",
+    "description": "Download file from google drive",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/gdrive"
+  },
+  {
+    "no": 13,
+    "name": "Instagram",
+    "description": "Download image/video from instagram",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/ig"
+  },
+  {
+    "no": 15,
+    "name": "Instagram Highlight",
+    "description": "Download highlight from instagram",
+    "parameter": ["q"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/igh"
+  },
+  {
+    "no": 16,
+    "name": "Instagram Highlight (GET)",
+    "description": "Detail highlight from instagram",
+    "parameter": ["foid"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/igh-get"
+  },
+  {
+    "no": 17,
+    "name": "Instagram Post",
+    "description": "Download video/image list from user instagram",
+    "parameter": ["username"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/ig-post"
+  },
+  {
+    "no": 18,
+    "name": "Instagram Story",
+    "description": "Download stories from instagram",
+    "parameter": ["q"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/igs"
+  },
+  {
+    "no": 19,
+    "name": "Likee",
+    "description": "Download video from likee",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/likee"
+  },
+  {
+    "no": 20,
+    "name": "Mediafire",
+    "description": "Download file from mediafire",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/mediafire"
+  },
+  {
+    "no": 21,
+    "name": "Mega",
+    "description": "Download file from mega",
+    "parameter": ["url"],
+    "limit": 5,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/mega"
+  },
+  {
+    "no": 22,
+    "name": "Online Converter",
+    "description": "Download all video from online converter",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/onlineconverter"
+  },
+  {
+    "no": 23,
+    "name": "Pinterest",
+    "description": "Download image/video from pinterest",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/pin-dl"
+  },
+  {
+    "no": 24,
+    "name": "Savefrom",
+    "description": "Download all video from savefrom downloader",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/savefrom"
+  },
+  {
+    "no": 25,
+    "name": "Slideshare",
+    "description": "Downloader slideshare",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/slideshare"
+  },
+  {
+    "no": 26,
+    "name": "Snackvideo",
+    "description": "Download video from snackvideo",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/snackvideo"
+  },
+  {
+    "no": 27,
+    "name": "Soundcloud",
+    "description": "Download audio from soundcloud",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/soundcloud-dl"
+  },
+  {
+    "no": 28,
+    "name": "Spotify Downloader",
+    "description": "Download audio from spotify",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/spotify-dl"
+  },
+  {
+    "no": 29,
+    "name": "Terabox",
+    "description": "Download file video from terabox",
+    "parameter": ["url"],
+    "limit": 5,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/terabox"
+  },
+  {
+    "no": 30,
+    "name": "Threads",
+    "description": "Download image/video from threads",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/threads"
+  },
+  {
+    "no": 31,
+    "name": "Tiktok",
+    "description": "Download video from tiktok",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/tiktok"
+  },
+  {
+    "no": 32,
+    "name": "Tiktok Slide",
+    "description": "Download image slide from tiktok",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/ttslide"
+  },
+  {
+    "no": 33,
+    "name": "Twitter",
+    "description": "Download image/video from twitter",
+    "parameter": ["url"],
+    "limit": 1,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/twitter"
+  },
+  {
+    "no": 34,
+    "name": "Youtube",
+    "description": "Download video/audio from youtube",
+    "parameter": ["url", "type"],
+    "limit": 2,
+    "method": "GET",
+    "status": "ACTIVE",
+    "type": ["mp4", "mp3"],
+    "action": "/youtube"
+  },
+  {
+    "no": 35,
+    "name": "Youtube Audio",
+    "description": "Download audio from youtube",
+    "parameter": ["url"],
+    "limit": 2,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/youtube?type=mp3"
+  },
+  {
+    "no": 36,
+    "name": "Youtube Video",
+    "description": "Download video from youtube",
+    "parameter": ["url"],
+    "limit": 2,
+    "method": "GET",
+    "status": "ACTIVE",
+    "action": "/youtube?type=mp4"
+  }
+]
